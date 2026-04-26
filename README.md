@@ -38,3 +38,10 @@ Train your short-term memory by remembering and typing sentences after they disa
 - ✅ Clean light mode UI (black/grey/white)
 
 ## 📁 Project Structure
+
+blind-typer/
+├── index.html
+├── style.css
+└── script.js
+
+
