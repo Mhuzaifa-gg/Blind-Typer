@@ -1,1 +1,58 @@
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
+.container {
+    background: #f0f0f0;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sentence-box {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 20px;
+    min-height: 80px;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background: #999;
+    cursor: not-allowed;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.score {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
