@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blind Typer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Blind Text Typer</h1>
+        
+        <div class="sentence-box" id="sentenceBox">
+            Click Start to begin
+        </div>
+        
+        <button id="startBtn">▶ Start Game</button>
+        
+        <input type="text" id="userInput" placeholder="Type what you remember..." disabled>
+        
+        <button id="checkBtn" disabled>✅ Check Answer</button>
+        
+        <div class="score" id="scoreDisplay">Score: 0</div>
+        <button id="resetBtn" style="background: #666; margin-top: 10px;">🔄 Reset Score</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
